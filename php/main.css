@@ -1,0 +1,13 @@
+.div_main{
+    position: absolute;
+    top: 50px;
+    left: 510px;
+}
+
+.table_class{
+    border: 2px dotted #000000;
+}
+
+td,th {
+    border: 1px dotted green;
+}
