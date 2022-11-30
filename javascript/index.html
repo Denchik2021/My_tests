@@ -1,0 +1,44 @@
+<DOCTYPE html!>
+
+    <head>
+        <title>Нужно сделать</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel = "Stylesheet" href = "css/todo.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
+        <link rel = "shortcut icon" href="assets/favicon.ico">
+        <link rel="icon" type="image/gif" href="assests/animated_favicon1.gif" >
+     </head>
+
+    <body>
+
+        <div id = "todo">
+            <h1> Мой индивидуальный план <i id="pencil" class="fas fa-pencil-alt"></i> </h1>
+
+            <input type = "text" placeholder="Добавить задачу">
+
+            <ul class="todos">
+                
+                <li><span><i class="fas fa-trash-alt"></i></span>Go to the salon</li>
+            </ul>
+
+            <div id= "buttons">
+                <button class="save">Сохранить</button>
+                <button class="clear">Очистить</button>
+                <button class="tipBtn">Советы</button>
+            </div>
+        </div>
+
+        <div id = "overlay">
+           <a href="javascript:void(0)" class="closebtn">&times;</a>
+           <ul class="tips">
+               <li>Нажмите на карандаш чтобы показать или скрыть область ввода.</li>
+               <li>Введите текст в область ввода и нажмите Enter, чтобы добавить задачу в список.</li>
+               <li>Наведите курсор на задачу и нажмите на корзину, чтобы удалить.</li>
+               <li>Нажмите кнопку «Очистить», чтобы удалить все задачи из списка.</li>
+               <li>Нажмите кнопку «Сохранить», чтобы сохранить свои задачи, чтобы получить к ним доступ позже, даже если вы выйдете из браузера.</li>
+            </ul>
+            
+        </div>
+        <script src="Js/todo2.js"></script>
+    </body>
